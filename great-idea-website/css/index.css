@@ -58,7 +58,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Titillium Web', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -74,38 +74,47 @@ h1, h2, h3, h4, h5 {
 .line {
 	margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 40px;
-    width: 874px;
+    margin-left: 48px;
+    width: 876px;
     border-top: 1px solid black;
 }
 
 header {
-	margin-left: 50px;
+	background-color: lightblue;
+    height: 100px;
+    position: fixed;
+    width: 876px;
+    margin-left: 48px;
 }
 
 header nav {
 	display: inline-block;
-	margin-top: 35px;
+    margin-top: 40px;
+    margin-left: 45px;
 }
 
 header img {
-	margin-left: 100px;
-	margin-bottom: -13px;
+	margin-left: 60px;
+    margin-bottom: -13px;
 }
 
 header nav a {
 	margin: 20px;
 	text-decoration-line: none;
-    color: gray;
+    color: black;
 }
 
 section.cta {
-	margin-top: 60px;
-	margin-left: 43px;
+	background-image: url("C:/Users/kingmoc/Documents/git/User-Interface/great-idea-website/img/header-img.png");
+    background-repeat: no-repeat;
+    background-position: 85%;
+    background-size: contain;
+	margin-top: 138px;
+    margin-left: 43px;
 }
 
 .cta-text button {
-	margin-left: 120px;
+	margin-left: 134px;
 	font-size: 21px;
     padding: 9px;
     width: 206px;
@@ -127,7 +136,8 @@ section.cta div h1 {
 
 section.cta img {
 	margin-left: 120px;
-    margin-top: 35px;
+	margin-top: 35px;
+	display: none;
 }
 
 .text-content {
@@ -136,8 +146,20 @@ section.cta img {
 	margin-left: 50px;
 }
 
+section.main-content {
+	background-image: url("C:/Users/kingmoc/Documents/git/User-Interface/great-idea-website/img/mid-page-accent.jpg");
+    background-repeat: no-repeat;
+    background-position: 42% 42%;
+}
+
+
 section.main-content img {
+	display: none;
 	margin: 25px 0 25px 48px;
+}
+
+div.bottom-content {
+	margin-top: 235px;
 }
 
 div.bottom-content .text-content {
@@ -159,4 +181,8 @@ footer section address {
 
 footer section p {
 	line-height: 30px;
+}
+
+#about {
+	width: 375px;
 }
