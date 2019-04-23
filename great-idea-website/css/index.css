@@ -64,3 +64,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid gray;
+}
+
+.line {
+	margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    width: 874px;
+    border-top: 1px solid black;
+}
+
+header {
+	margin-left: 50px;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header img {
+	margin-left: 100px;
+	margin-bottom: -13px;
+}
+
+header nav a {
+	margin: 20px;
+	text-decoration-line: none;
+    color: gray;
+}
+
+section.cta {
+	margin-top: 60px;
+	margin-left: 43px;
+}
+
+.cta-text button {
+	margin-left: 120px;
+	font-size: 21px;
+    padding: 9px;
+    width: 206px;
+	background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+section.cta div {
+	display: inline-block;
+}
+
+section.cta div h1 {
+	font-size: 80px;
+	margin-left: 62px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+section.cta img {
+	margin-left: 120px;
+    margin-top: 35px;
+}
+
+.text-content {
+	display: inline-block;
+    width: 43%;
+	margin-left: 50px;
+}
+
+section.main-content img {
+	margin: 25px 0 25px 48px;
+}
+
+div.bottom-content .text-content {
+	width: 25%;
+}
+
+footer {
+	margin-left: 50px;
+}
+
+footer p.copyright {
+	margin-top: 40px;
+	text-align: center;
+}
+
+footer section address {
+	margin-bottom: 20px;
+}
+
+footer section p {
+	line-height: 30px;
+}
